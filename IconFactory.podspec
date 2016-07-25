@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'IconFactory'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of IconFactory.'
+  s.summary          = 'simple icon generator'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,25 +18,25 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+A simple icon generator to use with specific icon style.
                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/IconFactory'
+  s.homepage         = 'https://github.com/sergeysivak/IconFactory'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Sergey Sivak' => 'sergey.sivak@icloud.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/IconFactory.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/sergeysivak/IconFactory.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'Pod/Classes/**/*'
+  s.source_files = 'Pod/Classes/*'
   
   # s.resource_bundles = {
   #   'IconFactory' => ['IconFactory/Assets/*.png']
   # }
 
-  s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'Pod/Classes/*.h'
   s.frameworks = 'UIKit'
   s.dependency 'FontAwesome.swift', '~> 0.8'
 end

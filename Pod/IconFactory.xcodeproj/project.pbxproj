@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5C0CBAEF1D460DF20090DA83 /* IconFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C0CBAED1D460DEC0090DA83 /* IconFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5C0CBAF51D460E140090DA83 /* FAIconFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0CBAF11D460E140090DA83 /* FAIconFactory.swift */; };
 		5C0CBAF61D460E140090DA83 /* IconFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0CBAF21D460E140090DA83 /* IconFactory.swift */; };
 		5C0CBAF71D460E140090DA83 /* IconsStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0CBAF31D460E140090DA83 /* IconsStyle.swift */; };
 		5C0CBAF81D460E140090DA83 /* LogManagerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0CBAF41D460E140090DA83 /* LogManagerType.swift */; };
+		5C0CBB0D1D4632160090DA83 /* IconFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C0CBB0C1D4632160090DA83 /* IconFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6B0E41E8158E83407F70E6D2 /* Pods_IconFactory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C08460469719503725AB31B /* Pods_IconFactory.framework */; };
 /* End PBXBuildFile section */
 
@@ -19,12 +19,12 @@
 		0C08460469719503725AB31B /* Pods_IconFactory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IconFactory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3421510D4542D39E57E42DE8 /* Pods-IconFactory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IconFactory.release.xcconfig"; path = "Pods/Target Support Files/Pods-IconFactory/Pods-IconFactory.release.xcconfig"; sourceTree = "<group>"; };
 		5C0CBAD31D460C8E0090DA83 /* IconFactory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IconFactory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5C0CBAED1D460DEC0090DA83 /* IconFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IconFactory.h; sourceTree = "<group>"; };
 		5C0CBAEE1D460DEC0090DA83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C0CBAF11D460E140090DA83 /* FAIconFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FAIconFactory.swift; sourceTree = "<group>"; };
 		5C0CBAF21D460E140090DA83 /* IconFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconFactory.swift; sourceTree = "<group>"; };
 		5C0CBAF31D460E140090DA83 /* IconsStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconsStyle.swift; sourceTree = "<group>"; };
 		5C0CBAF41D460E140090DA83 /* LogManagerType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogManagerType.swift; sourceTree = "<group>"; };
+		5C0CBB0C1D4632160090DA83 /* IconFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IconFactory.h; sourceTree = "<group>"; };
 		A4CACDFA98D9BAF890F64A0B /* Pods-IconFactory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IconFactory.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IconFactory/Pods-IconFactory.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -62,6 +62,7 @@
 		5C0CBAF01D460E140090DA83 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				5C0CBB0C1D4632160090DA83 /* IconFactory.h */,
 				5C0CBAF21D460E140090DA83 /* IconFactory.swift */,
 				5C0CBAF31D460E140090DA83 /* IconsStyle.swift */,
 				5C0CBAF11D460E140090DA83 /* FAIconFactory.swift */,
@@ -73,7 +74,6 @@
 		5C0CBAF91D460E1B0090DA83 /* Supporting files */ = {
 			isa = PBXGroup;
 			children = (
-				5C0CBAED1D460DEC0090DA83 /* IconFactory.h */,
 				5C0CBAEE1D460DEC0090DA83 /* Info.plist */,
 			);
 			name = "Supporting files";
@@ -103,7 +103,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C0CBAEF1D460DF20090DA83 /* IconFactory.h in Headers */,
+				5C0CBB0D1D4632160090DA83 /* IconFactory.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
