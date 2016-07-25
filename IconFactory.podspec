@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'IconFactory'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'simple icon generator'
 
 # This description is used to generate tags and improve search results.
