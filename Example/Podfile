@@ -1,0 +1,7 @@
+use_frameworks!
+
+target 'IconFactory_Example' do
+
+  pod 'IconFactory', :path => '../'
+
+end

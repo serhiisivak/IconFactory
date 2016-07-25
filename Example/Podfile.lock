@@ -1,0 +1,19 @@
+PODS:
+  - FontAwesome.swift (0.8.0)
+  - IconFactory (0.1.0):
+    - FontAwesome.swift (~> 0.8)
+
+DEPENDENCIES:
+  - IconFactory (from `../`)
+
+EXTERNAL SOURCES:
+  IconFactory:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FontAwesome.swift: f8c6cc5c42cbe93bdc04371363bc7b371fb3d3a1
+  IconFactory: 7bd84200b8c3b3b98b756c3eaa1a02043c49d439
+
+PODFILE CHECKSUM: 816ba4c40ddcb3df62fbb43795636c23a5182a59
+
+COCOAPODS: 1.0.1

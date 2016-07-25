@@ -1,0 +1,6 @@
+framework module Pods_IconFactory {
+  umbrella header "Pods-IconFactory-umbrella.h"
+
+  export *
+  module * { export * }
+}

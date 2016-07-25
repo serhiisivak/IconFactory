@@ -1,0 +1,6 @@
+framework module IconFactory {
+  umbrella header "IconFactory-umbrella.h"
+
+  export *
+  module * { export * }
+}
